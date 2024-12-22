@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment-container {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 550px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.amount {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.card-payment {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.card-payment input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.card-payment button {
+    width: 100%;
+    padding: 15px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.error-message {
+    color: #f00;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.amount_end{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    display: none;
+}

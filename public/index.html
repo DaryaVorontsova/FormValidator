@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typescript Homework</title>
+  </head>
+  <body>
+    <!-- <h1>Typescript Homework</h1> -->
+     <div class="container">
+      <div class="payment-container">
+        <div class="amount">
+          <p style="margin: 0;">2 390,01 ₽</p>
+        </div>
+      </div>
+      <div class="payment-container">
+        <div class="amount">Оплата картой</div>
+          <form style="width: 100%;">
+            <div class="card-payment">
+              <div>
+                <input type="text" placeholder="Имя владельца карты">
+                <div id="fieldName" class="error-message"></div>
+              </div> 
+              <div>
+                <input type="text" placeholder="Номер карты">
+                <div id="fieldNumber" class="error-message"></div>
+              </div>
+              <div>
+                <input type="text" placeholder="Срок">
+                <div id="fieldDate" class="error-message"></div>
+              </div>
+              <div>
+                <input type="text" placeholder="Код">
+                <div id="fieldCode" class="error-message"></div>
+              </div>
+              <button>Оплатить</button>
+            </div>
+          </form>
+        </div>
+          <p id="successful" class="amount_end">Оплата прошла успешно!!!</p>
+      </div>
+    <script type="module" src="/bundle.js"></script>
+  </body>
+</html>
